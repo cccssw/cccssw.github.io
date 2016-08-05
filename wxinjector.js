@@ -82,7 +82,7 @@ window.rawSend = function(user,text,message,wait,callback,totalCount){
 			$(root.find(".ngdialog-content")[0]).attr("style","width:800px");
 			$(root.find(".selector")).attr("style","width:50%;");
 			$(root.find(".title")).text("群发");
-			$(root.find(".dialog_bd")).attr("style","width:50%;");
+			$(root.find(".dialog_bd")).attr("style","width:48%;");
 			var right = '<div class="b_right_area" style="width:50%;top:50px;position: absolute;right: 10px;z-index:9999;">'+
 	            '<h2 style="text-align: center;">群发内容</h2>'+
 	            '<textarea id="b_text" style="height: 120px;width:100%;border-radius: 5px;padding: 10px;"></textarea>'+
